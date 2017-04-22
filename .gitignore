@@ -19,11 +19,11 @@ hs_err_pid*
 
 #/.externalToolBuilders/
 /.settings/
-/build/
 /.metadata/
 /.recommenders/
 /target/
 /build/
+/classes/
 /doc/
 /test-output/
 /.classpath
