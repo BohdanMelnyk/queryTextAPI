@@ -1,47 +1,71 @@
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
+# Patterns from github
+*.class
 
-# Folder config file
-Desktop.ini
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
 
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
+# Package Files #
+*.jar
+*.war
+*.ear
 
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
 
-# Windows shortcuts
-*.lnk
+# Ignore all temporary files in the root directory
+*.[oa]
+/bin/
 
-# =========================
-# Operating System Files
-# =========================
 
-# OSX
-# =========================
+#/.externalToolBuilders/
+/.settings/
+/build/
+/.metadata/
+/.recommenders/
+/target/
+/build/
+/doc/
+/test-output/
+/.classpath
+/.project
+/.checkstyle
+/reports/
+.idea/
+*.iml
 
-.DS_Store
-.AppleDouble
-.LSOverride
+/.externalToolBuilders/
+/**/.settings/
+/**/target/
+/**/doc/
+/**/test-output/
+/**/report/
+/**/.classpath
+/**/.project
+/**/.checkstyle
+/**/reports
+/**/af.reporting
+/**/.idea/
+*.iml
 
-# Thumbnails
-._*
+# ignore log
+*.log
 
-# Files that might appear in the root of a volume
-.DocumentRevisions-V100
-.fseventsd
-.Spotlight-V100
-.TemporaryItems
-.Trashes
-.VolumeIcon.icns
+# ignore log
+*.bmp
 
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
+# ignore doc/notes.txt, but not doc/info/arch.txt
+# doc/*.txt
+
+# ignore all .txt files in the directory doc/
+# doc/**/*.txt
+
+# ignore .doc .pfd .docx
+*.doc
+*.docx
+*.pdf
+
+# nodejs
+/node_modules/
+
+# bower
+bower_components
